@@ -10,7 +10,7 @@ This repo implements the paper "An RNN-Based Multimodal Sentiment Analysis: Focu
 
 # Data
 
-Download the preprocessed audio and video dataset here from [here](https://www.dropbox.com/s/87udb6v403g30tt/MOSI.zip?dl=0).
+Download the preprocessed audio and video dataset from [here](https://www.dropbox.com/s/87udb6v403g30tt/MOSI.zip?dl=0).
 It consists of two files : audio_dataset.pkl and video_sentence_dataset.pkl. Put them in folder train/MOSI/
 Both these files containes list of size :
 ```
@@ -38,5 +38,11 @@ python3 FC.py
 ``` 
 Multi-modal fusion k-fold is done according to shuffle.npy (same train-dev-test set for k-fold) so test-set has been never seen even during mono-modalities computations.
 
-
+You should be able to reproduce (more or less) these results :
+| Modality        | Accuracy           | F1-Score  |
+| ------------- |:-------------:| :-----:|
+| Text      | 71.07% | 70.17% |
+| Audio     | 60.76%     |   63.87% |
+| Video [AU, L, 𝚫L]     | 54.16%      |    49.81% |
+| Text + Audio +Video     | 74.16%      |    75.22% |
 
