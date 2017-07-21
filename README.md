@@ -39,17 +39,12 @@ python3 FC.py
 Multi-modal fusion k-fold is done according to shuffle.npy (same train-dev-test set for k-fold) so test-set has been never seen even during mono-modalities computations.
 
 You should be able to reproduce (more or less) these results :
+
+
 | Modality        | Accuracy           | F1-Score  |
 | ------------- |:-------------:| -----:|
 | Text      | 71.07% | 70.17% |
 | Audio     | 60.76%     |   63.87% |
 | Video [AU, L, 𝚫L]     | 54.16%      |    49.81% |
 | Text + Audio +Video     | 74.16%      |    75.22% |
-
-
-| Modality        | Accuracy           | F1-Score  |
-| ------------- |:-------------:| -----:|
-| Text      | 71.07% | 70.17% |
-| Audio     | 60.76%     |   63.87% |
-| Video [AU, L, 𝚫L]     | 54.16%      |    49.81% |
 
