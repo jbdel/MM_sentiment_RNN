@@ -12,11 +12,11 @@ This repo implements the paper "An RNN-Based Multimodal Sentiment Analysis: Focu
 
 Download the preprocessed audio and video dataset from [here](https://www.dropbox.com/s/87udb6v403g30tt/MOSI.zip?dl=0).
 It consists of two files : audio_dataset.pkl and video_sentence_dataset.pkl. Put them in folder train/MOSI/
-Both these files containes list of size :
+Both these files contain lists of size :
 ```
 [example, num_frames, feature_size]
 ```
-AS mentionned in the paper, we work with 2096 filtered training examples and the features are of size 172 for audio and 289 for video. 
+As mentionned in the paper, we work with 2096 filtered training examples and the features are of size 172 for audio and 289 for video. 
 
 In folder train/MOSI/, you find train.en, the transcriptions of the videos and train.ids.en, the tokenized text according to vocab.en. The three modalities are sorted according to list_filtered.txt (ids of video clips). So the first utterance of list_filtered.txt has id ```_dI--eQ6qVU_1```, its transcription is the first line of train.en, its audio features at index 0 of audio_dataset.pkl and its video_features at index 0 of video_sentence_dataset.pkl.
 
