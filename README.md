@@ -1,8 +1,6 @@
 # MM_sentiment_RNN
 This repo implements the paper "An RNN-Based Multimodal Sentiment Analysis: Focusing on\\ Facial Expressions and Multimodal Dynamic Representations" on Tensorflow r1.1
 
-I slightly refined the code in Att.py for the new r1.0 tensorflow version. 
-
 # Prerequisites
 * Python 3.4
 * [Tensorflow](https://www.tensorflow.org/) >= 1.1
