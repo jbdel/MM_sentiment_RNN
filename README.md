@@ -36,6 +36,7 @@ Once the three modalities computed, you can start the multi-modal fusion
 ```
 python3 FC.py
 ``` 
+Multi-modal fusion k-fold is done according to shuffle.npy (same train-dev-test set for k-fold) so test-set has been never seen even during mono-modalities computations.
 
 
 
