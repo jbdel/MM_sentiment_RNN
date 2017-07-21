@@ -47,7 +47,7 @@ You should be able to reproduce (more or less) these results :
 | Text + Audio +Video     | 74.16%      |    75.22% |
 
 
-| Tables        | Are           | Cool  |
+| Modality        | Accuracy           | F1-Score  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
