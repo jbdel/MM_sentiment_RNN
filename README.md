@@ -46,3 +46,10 @@ You should be able to reproduce (more or less) these results :
 | Video [AU, L, 𝚫L]     | 54.16%      |    49.81% |
 | Text + Audio +Video     | 74.16%      |    75.22% |
 
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
