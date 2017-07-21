@@ -49,7 +49,7 @@ You should be able to reproduce (more or less) these results :
 
 | Modality        | Accuracy           | F1-Score  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Text      | 71.07% | 70.17% |
+| Audio     | 60.76%     |   63.87% |
+| Video [AU, L, 𝚫L]     | 54.16%      |    49.81% |
 
