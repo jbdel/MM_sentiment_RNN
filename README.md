@@ -48,3 +48,13 @@ You should be able to reproduce (more or less) these results :
 | Video [AU, L, 𝚫L]     | 54.16%      |    49.81% |
 | Text + Audio +Video     | 74.16%      |    75.22% |
 
+Further results with speaker dependant tests (clips from W8NXH0Djyww_1 to ZUXBRvtny7o_34 of ```list_filtered.txt``` are unseen speakers reserved for test-set
+
+| Modality        | Accuracy           | F1-Score  |
+| ------------- |:-------------:| -----:|
+| Text      | 66.57% | 69.10% |
+| Audio     | 56.66%     |   55.61% |
+| Video [AU, L, 𝚫L]     | 51.76%      |    51.79% |
+| Text + Audio +Video     | 69.04%      |    71.11% |
+
+
