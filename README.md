@@ -48,7 +48,7 @@ You should be able to reproduce (more or less) these results :
 | Video [AU, L, 𝚫L]     | 54.16%      |    49.81% |
 | Text + Audio +Video     | 74.16%      |    75.22% |
 
-Further results with speaker dependant tests (clips from W8NXH0Djyww_1 to ZUXBRvtny7o_34 of ```list_filtered.txt``` are unseen speakers reserved for test-set
+Further results with speaker dependant tests (clips from W8NXH0Djyww_1 to ZUXBRvtny7o_34 of ```list_filtered.txt``` are unseen speakers reserved for test-set - this corresponds to 210 clips or 10.01% of the dataset)
 
 | Modality        | Accuracy           | F1-Score  |
 | ------------- |:-------------:| -----:|
